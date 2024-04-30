@@ -1,0 +1,127 @@
+body {
+    margin: 0px;
+    background-color: #394053;
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    background-color: #000000;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a:hover {
+    color: #5BBE42;
+}
+
+header nav ul {
+    padding: 0px;
+    display: flex;
+    list-style-type: none;
+}
+
+header nav ul li {
+    margin: 0px 150px;
+}
+
+A {
+    color: #80ffd4;
+    text-decoration: none;
+}
+.corpo {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding-top: 25px;
+    color: #F7F0F5;
+}
+
+.corpo img {
+    height: 150px;
+    width: 150px;
+    border-radius: 90%;
+    border: 5px solid #5BBE42;
+}
+
+.texto-corpo {
+    text-align: left;;
+    margin: 0px 35px;
+}
+
+h1 {
+    color: #5BBE42;
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+h3 {
+    font-size: 27px;
+}
+
+main section ul li {
+    font-size: 23px;
+    margin: 10px 0px;
+    text-align: justify;
+    list-style-type: none;
+}
+
+footer {
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: #262931;
+}
+
+
+/* Estilização Página Projeto*/
+.titulo-projeto {
+    font-size: 50px;
+    margin: 15px;
+}
+.corpo-projeto {
+    text-align: center;
+}
+.imagens-projetos {
+    width: 1500px;
+    height: 700px;
+    margin: 20px;
+}
+
+
+/* Estilização Página Contatos*/
+.corpo-contatos {
+    text-align: center;
+    color: white;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+label, input {
+    margin: 3px;
+    padding: 5px 5px;
+}
+
+button {
+    background-color: aliceblue;
+    margin: 6px;
+    padding: 5px 20px;
+}
+
+i {
+    font-size: 50px;
+    color: white;
+    margin: 30px;
+}
